@@ -1,0 +1,293 @@
+/** @format */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(46, 45, 45);
+  background-color: rgb(236, 235, 235);
+}
+h2 {
+  background-clip: text;
+  color: transparent;
+  background-size: contain;
+  background-image: url("asset/image/bg2.jpg");
+}
+a{
+    color: rgb(46, 45, 45);
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+.judul {
+    animation: updown 1s ease-out alternate forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0px;
+  margin-bottom: 15px;
+  margin-top: 35px;
+  background-clip: text;
+  color: transparent;
+  background-size: contain;
+  background-image: url("asset/image/bg2.jpg");
+  /* text-shadow: 0px 0px 10px orange; */
+}
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.desc .text {
+    animation: hidden 2s ease-out alternate forwards;
+  text-align: center;
+  padding: 0px 20px;
+  overflow: hidden;
+}
+.desc .text span {
+  color: orangered;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.desc .media {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.desc .media .item {
+  width: 40%;
+  height: 200px;
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 10px grey;
+  transition: 0.5s;
+}
+.desc .media .item:hover {
+  box-shadow: 3px 3px 10px orange, 7px 7px 20px orangered;
+}
+.desc .media .itemstruktur:hover {
+  box-shadow: 3px 3px 10px orange, 7px 7px 20px orangered;
+}
+
+.desc .media .item .img {
+  border-radius: 10px;
+}
+.desc .media .item .img1 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 85%;
+  background-image: url("asset/image/seni.jpg");
+  background-size: cover;
+}
+.desc .media .item .img2 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 85%;
+  background-image: url("asset/image/tarung.jpg");
+  background-size: cover;
+}
+.desc .media .item .img3 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 85%;
+  background-image: url("asset/image/gbcup1.png");
+  background-size: cover;
+}
+.desc .media .item .img4 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 85%;
+  background-image: url("asset/image/gbcup2.jpg");
+  background-size: cover;
+}
+.desc .media .itemstruktur {
+  width: 90%;
+  height: 250px;
+  box-shadow: 3px 3px 10px grey;
+  padding: 3px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.desc .media .itemstruktur .img5 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 85%;
+  background-image: url("asset/image/struktur.jpg");
+  background-size: cover;
+}
+.desc .media .itemstruktur .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  text-align: center;
+}
+.desc .media .item .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  text-align: center;
+}
+
+footer .profil {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer .contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+box-sizing: border-box;
+gap: 15px;
+}
+
+footer  .contact a {
+  /* padding: 5px, 15px; */
+  width: 200px;
+  display: flex;
+  align-items: center;
+  transition: 1s;
+}
+footer  .contact a .logo{
+    width: 100%;
+    transition: 1s;
+}
+footer .contact .logo:hover {
+  border: 1px solid orange;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px orangered;
+  transform: scale(1.1);
+}
+footer .contact img {
+  width: 20px;
+}
+
+footer .desc {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  margin-top: -20px;
+}
+footer h3 {
+  background-clip: text;
+  color: transparent;
+  background-size: contain;
+  background-image: url("asset/image/bg2.jpg");
+}
+footer .desc h4 {
+  margin-bottom: -15px;
+}
+footer .profil .img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  background-image: url("asset/image/ryo.jpg");
+  background-size: cover;
+  transition: 0.5s;
+  border: 2px solid aqua;
+}
+footer .profil .img:hover {
+  border: 2px solid rgb(74, 6, 129);
+  transform: scale(1.2);
+  box-shadow: 3px 3px 10px grey;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+footer .contact .ig::after {
+  content: "@ryodrma_";
+  margin-left: 5px;
+}
+
+
+
+footer .contact .linkedin::after {
+    content: "Haryo Darma Putra";
+    margin-left: 5px;
+}
+
+
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('asset/font/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Protest';
+    src: url('/asset/font/ProtestStrike-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('asset/font/BebasNeue-Regular.ttf');
+}
+
+h1, h2, h3{
+    font-family: 'Bebas';
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+p,h4,h5{
+    font-family: 'Montserrat';
+}
+
+
+@keyframes updown {
+    0%{
+        transform: translate(0, -100px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes leftright {
+    0%{
+        transform: translate(-100px, 0px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes rightleft {
+    0%{
+        transform: translate(100px, 0px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes hidden {
+    0%{color: white;}
+    100%{color: rgb(46, 45, 45);}
+}
